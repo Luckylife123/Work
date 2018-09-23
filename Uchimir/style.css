@@ -1,0 +1,273 @@
+body{
+	 font-family: Avantgarde, Arial, Helvetica, sans-serif;
+	 margin:0px;
+	 padding: 0px;
+	 min-width: 320px;
+	 font-size:18px;
+}
+.header{
+	width: 100%;
+	margin: 0;
+}
+.navbar {
+	color:#F0F8FF;
+	margin: 0;
+    border-radius: 0px;
+    background-color: #2C6015;
+    border-bottom: 0px;
+    background-position:50% 0%;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#F0F8FF;
+	font-size: 14px;
+	margin-left: 0px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>li {
+	color:#F0F8FF;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+
+    background-color: transparent;
+}
+.nav>li>a{
+	padding:15px 13px;
+}
+.navbar-inverse .navbar-brand {
+    color:#fff;
+	height: 0px; 
+	line-height: 0px;
+	text-transform: uppercase;
+	margin-top: -10px;
+	font-family: DK-Face-Your-Fears-II;
+
+}
+.navbar-brand img{
+	width: 200px;
+	height: 40px;
+}
+.content{
+	padding-top: 20px;
+}
+.sidebar h2{
+    margin-top:0px;
+}
+.sidebar_post{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.sidebar_post img{
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+}
+.sidebar_post_a{
+	color:#000;
+}
+.sidebar_post_a:hover{
+	color:#000;
+}
+.post_a{
+	height: 400px;
+	padding: 0px;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 2px;
+	color:#2a3a22;
+}
+.post_a:hover{
+	color:#2a3a22;
+}
+.post{
+	padding: 0px;
+	margin-bottom: 50px;
+	height: 400px;
+}
+.post img{
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	opacity: 0.7;
+	transition: 1s;
+}
+.post_a:hover img,.post_a:hover .footer_post{
+	opacity: 1;
+}
+.title{
+	max-height: 150px;
+	overflow: hidden;
+}
+.btn-defalut{
+	background-color:#43781f;
+	color:#DDDDDD;
+}
+.btn-defalut:hover{
+	color:#DDDDDD;
+	text-decoration: underline;
+}
+.footer_post{
+	font-weight: 100;
+	font-size: 12px;
+	opacity: 0.6;
+}
+.footer_post span:last-child{
+	padding-left:10px;
+}
+@media  (max-width: 991px){
+	.post{	
+	height: auto;
+	}
+	.post img{
+		height: auto;
+	}
+	.post_a:hover{
+		text-decoration: none;
+	}
+	.title{
+	height: auto;
+	overflow: visible;
+}
+}
+.page-numbers{
+	list-style: none;
+	text-align: center;
+	margin: 10px 0px 30px 0px;
+}
+.page-numbers li{
+ 	display: inline-block;
+}
+.page-numbers li a {
+	padding: 5px 10px;
+	color:#DDDDDD;
+	background-color:#43781f; 
+	border-radius: 30%;
+}
+.current{
+	padding: 7px 12px;
+	color:#DDDDDD;
+	background-color:#43781f; 
+	border-radius: 30%;
+}
+@media  (max-width: 932px){
+.page-numbers li a{
+	padding: 1px 5px;
+}
+.current {
+	padding: 4px 8px;
+}
+}
+.title_current_post {
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: left;
+}
+.content_current_post{
+	line-height: 24px;
+	font-size: 18px;
+	text-align: justify;
+
+}
+.current_post img{
+	max-width: 100%;
+	height: auto;
+}
+.alignleft {
+	float:left;
+	margin-right: 10px;
+}
+.alignright{
+	float:right;
+	margin-left: 10px;
+}
+.aligncenter{
+	margin: 0 auto;
+	display: block;
+}
+.img_current_post{
+	margin: 20px 0;
+}
+.header_post_list ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.header_post_list ul li{
+	display: inline-block;
+}
+.header_post_list ul li:after{
+	content: "/";
+	margin: 0px 10px;
+}
+.header_post_list ul li:last-child:after{
+	content: "";
+	margin: 0px;
+}
+.header_post_list ul li a{
+	color:#43781f;
+}
+.post-categories{
+	margin: 0px;
+	padding: 0px;
+}
+.page-header{
+	margin: 0px;
+	margin-bottom: 10px;
+}
+.page-header h1{
+	margin: 0px;
+}
+.footer{
+	width: 90%;
+	margin: 0 auto;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #000;
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+	margin-top:100px;
+}
+.btn-vk{	
+		color:#43781f;
+		background-color: #DDDDDD;
+		border-radius: 100%;
+		margin-top: 20px;
+}
+.else_pages{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.else_pages li{
+		display: inline-block;
+		padding: 10px;
+}
+.else_pages li a{
+		color:#fff;
+}
+.footer p{
+	padding: 10px;
+	margin: 0px;
+}
+.scrollup{
+	width:50px;
+	height:50px;
+	opacity:0.8;
+	position:fixed;
+	bottom:50px;
+	left:20px;
+	display:none;
+	text-indent:-9999px;
+	background-size: 100% 100%;
+}
